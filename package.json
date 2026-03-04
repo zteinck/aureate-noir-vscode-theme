@@ -1,9 +1,9 @@
 {
-    "name": "tokyo-night",
-    "displayName": "Tokyo Night",
-    "description": "A clean Visual Studio Code theme that celebrates the lights of Downtown Tokyo at night.",
-    "version": "1.1.2",
-    "publisher": "enkia",
+    "name": "aureate-noir",
+    "displayName": "Aureate Noir",
+    "description": "A dark Visual Studio Code theme inspired by Tokyo Night, with reduced neon and a warmer, more subdued aesthetic.",
+    "version": "1.0.0",
+    "publisher": "zteinck",
     "license": "MIT",
     "keywords": [
         "theme",
@@ -11,16 +11,19 @@
         "dark",
         "light",
         "tokyo",
-        "clean"
+        "clean",
+        "ochre",
+        "aureate",
+        "noir"
     ],
     "icon": "icon.png",
-    "homepage": "https://github.com/enkia/tokyo-night-vscode-theme",
+    "homepage": "https://github.com/zteinck/aureate-noir-vscode-theme",
     "repository": {
-        "url": "https://github.com/enkia/tokyo-night-vscode-theme",
+        "url": "https://github.com/zteinck/aureate-noir-vscode-theme",
         "type": "git"
     },
     "bugs": {
-        "url": "https://github.com/enkia/tokyo-night-vscode-theme/issues"
+        "url": "https://github.com/zteinck/aureate-noir-vscode-theme/issues"
     },
     "galleryBanner": {
         "color": "#1f2335",
@@ -36,19 +39,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Tokyo Night",
+                "label": "Aureate Noir",
                 "uiTheme": "vs-dark",
-                "path": "./themes/tokyo-night-color-theme.json"
-            },
-            {
-                "label": "Tokyo Night Storm",
-                "uiTheme": "vs-dark",
-                "path": "./themes/tokyo-night-storm-color-theme.json"
-            },
-            {
-                "label": "Tokyo Night Light",
-                "uiTheme": "vs",
-                "path": "./themes/tokyo-night-light-color-theme.json"
+                "path": "./themes/aureate-noir-color-theme.json"
             }
         ]
     },
