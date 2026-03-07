@@ -43,7 +43,7 @@
         "icon.foreground": "{meta-text}",
         "settings.headerForeground": "{git-modded}",
         "window.activeBorder": "#0d0f17",
-        "window.inactiveBorder":"#0d0f17",
+        "window.inactiveBorder": "#0d0f17",
         "sash.hoverBorder": "{theme}",
 
         "toolbar.activeBackground": "#202330",
@@ -106,7 +106,7 @@
         "sideBar.dropBackground": "#1e202e",
 
         "list.dropBackground": "#1e202e",
-        "list.deemphasizedForeground":"{meta-text}",
+        "list.deemphasizedForeground": "{meta-text}",
         "list.activeSelectionBackground": "#202330",
 
         "list.activeSelectionForeground": "{theme}",
@@ -331,19 +331,21 @@
         "debugConsole.errorForeground": "#bb616b",
         "debugConsole.sourceForeground": "{meta-text}",
         "debugConsole.warningForeground": "{yellow}",
-        "debugConsoleInputIcon.foreground":"{green}",
+        "debugConsoleInputIcon.foreground": "{green}",
 
-        "editor.stackFrameHighlightBackground":"#E2BD3A20",
-        "editor.focusedStackFrameHighlightBackground":"{green}20",
-        "debugView.stateLabelForeground":"{meta-text}",
+        "editor.stackFrameHighlightBackground": "#E2BD3A20",
+        "editor.focusedStackFrameHighlightBackground": "{green}20",
+
+        "debugView.stateLabelForeground": "{meta-text}",
         "debugView.stateLabelBackground": "{input-background}",
         "debugView.valueChangedHighlight": "#3d59a1aa",
+
         "debugTokenExpression.name": "{imports}",
-        "debugTokenExpression.value":"#9aa5ce",
-        "debugTokenExpression.string":"#9ece6a",
-        "debugTokenExpression.boolean":"{bools}",
-        "debugTokenExpression.number":"{bools}",
-        "debugTokenExpression.error":"#bb616b",
+        "debugTokenExpression.value": "#9aa5ce",
+        "debugTokenExpression.string": "#9ece6a",
+        "debugTokenExpression.boolean": "{bools}",
+        "debugTokenExpression.number": "{bools}",
+        "debugTokenExpression.error": "#bb616b",
 
         "debugIcon.breakpointForeground": "{red}",
         "debugIcon.breakpointDisabledForeground": "#414761",
@@ -436,15 +438,15 @@
         "notificationsWarningIcon.foreground": "{yellow}",
         "notificationsInfoIcon.foreground": "#0da0ba",
 
-        "menubar.selectionForeground":"{theme}",
-        "menubar.selectionBackground":"#1e202e",
-        "menubar.selectionBorder":"#1b1e2e",
-        "menu.foreground":"{meta-text}",
-        "menu.background":"{outer-background}",
-        "menu.selectionForeground":"{theme}",
-        "menu.selectionBackground":"#1e202e",
-        "menu.separatorBackground":"{borders}",
-        "menu.border":"{theme}AA",
+        "menubar.selectionForeground": "{theme}",
+        "menubar.selectionBackground": "#1e202e",
+        "menubar.selectionBorder": "#1b1e2e",
+        "menu.foreground": "{meta-text}",
+        "menu.background": "{outer-background}",
+        "menu.selectionForeground": "{theme}",
+        "menu.selectionBackground": "#1e202e",
+        "menu.separatorBackground": "{borders}",
+        "menu.border": "{theme}AA",
 
         "chat.requestBorder": "#0f0f14",
         "chat.avatarBackground": "#3d59a1",
@@ -1220,7 +1222,7 @@
         },
         {
             "name": "Deleted",
-            "scope":"markup.deleted",
+            "scope": "markup.deleted",
             "settings": {
                 "foreground": "{git-delete}"
             }

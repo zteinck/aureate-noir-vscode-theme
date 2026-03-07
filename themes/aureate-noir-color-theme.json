@@ -43,7 +43,7 @@
         "icon.foreground": "#A9B1D6CC",
         "settings.headerForeground": "#569CD6",
         "window.activeBorder": "#0D0F17",
-        "window.inactiveBorder":"#0D0F17",
+        "window.inactiveBorder": "#0D0F17",
         "sash.hoverBorder": "#CC7722",
 
         "toolbar.activeBackground": "#202330",
@@ -106,7 +106,7 @@
         "sideBar.dropBackground": "#1E202E",
 
         "list.dropBackground": "#1E202E",
-        "list.deemphasizedForeground":"#A9B1D6CC",
+        "list.deemphasizedForeground": "#A9B1D6CC",
         "list.activeSelectionBackground": "#202330",
 
         "list.activeSelectionForeground": "#CC7722",
@@ -331,19 +331,21 @@
         "debugConsole.errorForeground": "#BB616B",
         "debugConsole.sourceForeground": "#A9B1D6CC",
         "debugConsole.warningForeground": "#E0AF68",
-        "debugConsoleInputIcon.foreground":"#00BB77",
+        "debugConsoleInputIcon.foreground": "#00BB77",
 
-        "editor.stackFrameHighlightBackground":"#E2BD3A20",
-        "editor.focusedStackFrameHighlightBackground":"#00BB7720",
-        "debugView.stateLabelForeground":"#A9B1D6CC",
+        "editor.stackFrameHighlightBackground": "#E2BD3A20",
+        "editor.focusedStackFrameHighlightBackground": "#00BB7720",
+
+        "debugView.stateLabelForeground": "#A9B1D6CC",
         "debugView.stateLabelBackground": "#14141B",
         "debugView.valueChangedHighlight": "#3D59A1AA",
+
         "debugTokenExpression.name": "#9966CC",
-        "debugTokenExpression.value":"#9AA5CE",
-        "debugTokenExpression.string":"#9ECE6A",
-        "debugTokenExpression.boolean":"#D16969",
-        "debugTokenExpression.number":"#D16969",
-        "debugTokenExpression.error":"#BB616B",
+        "debugTokenExpression.value": "#9AA5CE",
+        "debugTokenExpression.string": "#9ECE6A",
+        "debugTokenExpression.boolean": "#D16969",
+        "debugTokenExpression.number": "#D16969",
+        "debugTokenExpression.error": "#BB616B",
 
         "debugIcon.breakpointForeground": "#BB0045",
         "debugIcon.breakpointDisabledForeground": "#414761",
@@ -436,15 +438,15 @@
         "notificationsWarningIcon.foreground": "#E0AF68",
         "notificationsInfoIcon.foreground": "#0DA0BA",
 
-        "menubar.selectionForeground":"#CC7722",
-        "menubar.selectionBackground":"#1E202E",
-        "menubar.selectionBorder":"#1B1E2E",
-        "menu.foreground":"#A9B1D6CC",
-        "menu.background":"#16161E",
-        "menu.selectionForeground":"#CC7722",
-        "menu.selectionBackground":"#1E202E",
-        "menu.separatorBackground":"#101014",
-        "menu.border":"#CC7722AA",
+        "menubar.selectionForeground": "#CC7722",
+        "menubar.selectionBackground": "#1E202E",
+        "menubar.selectionBorder": "#1B1E2E",
+        "menu.foreground": "#A9B1D6CC",
+        "menu.background": "#16161E",
+        "menu.selectionForeground": "#CC7722",
+        "menu.selectionBackground": "#1E202E",
+        "menu.separatorBackground": "#101014",
+        "menu.border": "#CC7722AA",
 
         "chat.requestBorder": "#0F0F14",
         "chat.avatarBackground": "#3D59A1",
@@ -1220,7 +1222,7 @@
         },
         {
             "name": "Deleted",
-            "scope":"markup.deleted",
+            "scope": "markup.deleted",
             "settings": {
                 "foreground": "#BB0045"
             }
