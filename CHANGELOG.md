@@ -2,11 +2,11 @@
 ## 1.1.2
 2025-02-05
 - Add source control graph colors
-  
+
 ## 1.1.1
 2025-02-04
 - Add disabled foreground color
-- Add editor widget border color 
+- Add editor widget border color
 - Add editor inlay hints color
 - Add some chat colors
 
@@ -22,13 +22,13 @@
 ## 1.0.9
 2024-07-11
 - Redesign Tokyo Night Light theme to improve contrast
-  
+
 ## 1.0.8
 2024-07-10
 - Add colors for top activity bar (Thanks to [xiyaowong](https://github.com/xiyaowong))
 - Add DevTools port (Thanks to [AdelFetner](https://github.com/AdelFetner))
 - Add gitk and git-gui ports (Thanks to [domWalters](https://github.com/domWalters))
-  
+
 ## 1.0.7
 2024-07-10
 - Update indent guide color
@@ -38,7 +38,7 @@
 ## 1.0.6
 2023-11-10
 - Brighten comment colors in dark themes
-  
+
 ## 1.0.5
 `2023-10-13`
 - Specify js for module keyword
@@ -46,7 +46,7 @@
 
 ## 1.0.4
 - Add JSDoc syntax highlighting settings to README (Thanks to [tigga73](https://github.com/tigga73))
-  
+
 ## 1.0.3
 `2023-10-03`
 - Fix syntax color issues with Babel Javascript extension
@@ -54,7 +54,7 @@
 ## 1.0.2
 `2023-09-28`
 - Update jsx text color
-  
+
 ## 1.0.1
 `2023-08-02`
 - Update foreground color in Storm theme
@@ -63,12 +63,12 @@
 ## 1.0.0
 `2023-07-21`
 - Update unrecognized HTML tag color
-  
+
 ## 0.9.9
 `2023-03-28`
 - Fix property color of objects in templates
 - Add KiCad, Tilix/Black Box Terminal, gtksourceview ports (Thanks to [kevin-nel](https://github.com/kevin-nel))
-  
+
 ## 0.9.8
 `2023-03-21`
 - Update Gitlens colors
@@ -78,16 +78,16 @@
 ## 0.9.7
 `2023-02-16`
 - Revert custom component tag color for dark themes
-  
+
 ## 0.9.6
 `2023-02-13`
 - Update README
-  
+
 ## 0.9.5
 `2023-02-13`
 - Update input validation info colors
 - Update custom component tag colors
-  
+
 ## 0.9.4
 `2022-08-14`
 - Update secondary button color
@@ -99,16 +99,16 @@
 - Update toolbar colors
 - Update notebook colors
 - Update merge editor colors
-  
+
 ## 0.9.2
 `2022-07-22`
 - Update object reference color
 - Update gutter modified color for Storm
-  
+
 ## 0.9.1
 `2022-07-21`
 - Update editor ghost text color
-  
+
 ## 0.9.0
 `2022-07-13`
 - Update Storm's panel foreground and active border colors
@@ -254,7 +254,7 @@
 
 ## 0.6.0
 `2020-07-27`
-- Update terminal black color for Tokyo Night Storm and iTerm. 
+- Update terminal black color for Tokyo Night Storm and iTerm.
 
 ## 0.5.9
 `2020-07-14`
@@ -301,7 +301,7 @@
 
 ## 0.4.9
 `2020-03-11`
-- Update readme to reference the new semantic highlighting feature. 
+- Update readme to reference the new semantic highlighting feature.
 
 ## 0.4.8
 `2020-01-01`
