@@ -119,8 +119,8 @@
 
         "list.highlightForeground": "#668ac4",
         "list.invalidItemForeground": "#c97018",
-        "list.errorForeground": "#bb616b",
-        "list.warningForeground": "{yellow}",
+        "list.errorForeground": "{list-error}",
+        "list.warningForeground": "{list-warning}",
 
         "listFilterWidget.background": "{borders}",
         "listFilterWidget.outline": "{button}",
@@ -321,14 +321,14 @@
         "textCodeBlock.background": "{outer-background}",
         "textSeparator.foreground": "{black}",
 
-        // "debugExceptionWidget.background": "{borders}",
-        // "debugExceptionWidget.border": "{red}",
+        "debugExceptionWidget.background": "{borders}",
+        "debugExceptionWidget.border": "{red}",
 
         "debugToolBar.background": "{borders}",
         "debugToolBar.border": "{theme}{40%}",
 
         "debugConsole.infoForeground": "{meta-text}",
-        "debugConsole.errorForeground": "#bb616b",
+        "debugConsole.errorForeground": "{list-error}",
         "debugConsole.sourceForeground": "{meta-text}",
         "debugConsole.warningForeground": "{yellow}",
         "debugConsoleInputIcon.foreground": "{green}",
@@ -344,8 +344,8 @@
         "debugTokenExpression.value": "#9aa5ce",
         "debugTokenExpression.string": "{strings}",
         "debugTokenExpression.boolean": "{bools}",
-        "debugTokenExpression.number": "{bools}",
-        "debugTokenExpression.error": "#bb616b",
+        "debugTokenExpression.number": "{number}",
+        "debugTokenExpression.error": "{list-error}",
 
         "debugIcon.breakpointForeground": "{red}",
         "debugIcon.breakpointDisabledForeground": "#414761",
@@ -434,7 +434,7 @@
         "notificationCenterHeader.background": "{borders}",
         "notifications.background": "{borders}",
         "notificationLink.foreground": "{git-modded}",
-        "notificationsErrorIcon.foreground": "#bb616b",
+        "notificationsErrorIcon.foreground": "{list-error}",
         "notificationsWarningIcon.foreground": "{yellow}",
         "notificationsInfoIcon.foreground": "#0da0ba",
 

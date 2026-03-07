@@ -32,10 +32,10 @@
     "semanticClass": "aureate-noir",
     "colors": {
         "foreground": "#A9B1D6CC",
-        "descriptionForeground": "#515670",
+        "descriptionForeground": "#595D6F",
         "disabledForeground": "#545C7E",
         "focusBorder": "#545C7E33",
-        "errorForeground": "#515670",
+        "errorForeground": "#595D6F",
         "widget.shadow": "#FFFFFF00",
         "scrollbar.shadow": "#00000033",
         "badge.background": "#7E83B230",
@@ -119,7 +119,7 @@
 
         "list.highlightForeground": "#668AC4",
         "list.invalidItemForeground": "#C97018",
-        "list.errorForeground": "#BB616B",
+        "list.errorForeground": "#E07468",
         "list.warningForeground": "#E0AF68",
 
         "listFilterWidget.background": "#101014",
@@ -268,7 +268,7 @@
 
         "breadcrumb.background": "#16161E",
         "breadcrumbPicker.background": "#16161E",
-        "breadcrumb.foreground": "#515670",
+        "breadcrumb.foreground": "#595D6F",
         "breadcrumb.focusForeground": "#CC7722",
         "breadcrumb.activeSelectionForeground": "#CC7722",
 
@@ -321,14 +321,14 @@
         "textCodeBlock.background": "#16161E",
         "textSeparator.foreground": "#363B54",
 
-        // "debugExceptionWidget.background": "#101014",
-        // "debugExceptionWidget.border": "#BB0045",
+        "debugExceptionWidget.background": "#101014",
+        "debugExceptionWidget.border": "#BB0045",
 
         "debugToolBar.background": "#101014",
         "debugToolBar.border": "#CC772266",
 
         "debugConsole.infoForeground": "#A9B1D6CC",
-        "debugConsole.errorForeground": "#BB616B",
+        "debugConsole.errorForeground": "#E07468",
         "debugConsole.sourceForeground": "#A9B1D6CC",
         "debugConsole.warningForeground": "#E0AF68",
         "debugConsoleInputIcon.foreground": "#00BB77",
@@ -344,8 +344,8 @@
         "debugTokenExpression.value": "#9AA5CE",
         "debugTokenExpression.string": "#CE9178",
         "debugTokenExpression.boolean": "#D16969",
-        "debugTokenExpression.number": "#D16969",
-        "debugTokenExpression.error": "#BB616B",
+        "debugTokenExpression.number": "#CC7722",
+        "debugTokenExpression.error": "#E07468",
 
         "debugIcon.breakpointForeground": "#BB0045",
         "debugIcon.breakpointDisabledForeground": "#414761",
@@ -376,11 +376,11 @@
         "terminal.ansiBrightWhite": "#FFFFFF",
 
         "gitDecoration.modifiedResourceForeground": "#569CD6",
-        "gitDecoration.ignoredResourceForeground": "#515670",
+        "gitDecoration.ignoredResourceForeground": "#595D6F",
         "gitDecoration.deletedResourceForeground": "#BB0045",
-        "gitDecoration.renamedResourceForeground": "#449DAB",
-        "gitDecoration.addedResourceForeground": "#449DAB",
-        "gitDecoration.untrackedResourceForeground": "#449DAB",
+        "gitDecoration.renamedResourceForeground": "#20B2AA",
+        "gitDecoration.addedResourceForeground": "#20B2AA",
+        "gitDecoration.untrackedResourceForeground": "#20B2AA",
         "gitDecoration.conflictingResourceForeground": "#A9B1D6CC",
         "gitDecoration.stageDeletedResourceForeground": "#BB0045",
         "gitDecoration.stageModifiedResourceForeground": "#569CD6",
@@ -423,7 +423,7 @@
         "mergeEditor.conflict.unhandledFocused.border": "#A9B1D6B0",
         "mergeEditor.conflict.handledUnfocused.border": "#00BB7725",
         "mergeEditor.conflict.handledFocused.border": "#00BB7765",
-        "mergeEditor.conflict.handled.minimapOverViewRuler": "#449DAB",
+        "mergeEditor.conflict.handled.minimapOverViewRuler": "#20B2AA",
         "mergeEditor.conflict.unhandled.minimapOverViewRuler": "#A9B1D6",
 
         "gitlens.trailingLineForegroundColor": "#646E9C",
@@ -434,7 +434,7 @@
         "notificationCenterHeader.background": "#101014",
         "notifications.background": "#101014",
         "notificationLink.foreground": "#569CD6",
-        "notificationsErrorIcon.foreground": "#BB616B",
+        "notificationsErrorIcon.foreground": "#E07468",
         "notificationsWarningIcon.foreground": "#E0AF68",
         "notificationsInfoIcon.foreground": "#0DA0BA",
 
@@ -1217,7 +1217,7 @@
             "name": "Inserted",
             "scope": "markup.inserted",
             "settings": {
-                "foreground": "#449DAB"
+                "foreground": "#20B2AA"
             }
         },
         {
