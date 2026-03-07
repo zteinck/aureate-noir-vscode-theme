@@ -603,7 +603,7 @@
                 "invalid.illegal"
             ],
             "settings": {
-                "foreground": "#ff5370"
+                "foreground": "{red}"
             }
         },
         {
