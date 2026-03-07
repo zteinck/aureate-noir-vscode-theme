@@ -50,28 +50,28 @@
         "toolbar.hoverBackground": "#202330",
         // "toolbar.hoverOutline": "{theme}",
 
-        "extensionButton.prominentBackground": "#3d59a1DD",
-        "extensionButton.prominentHoverBackground": "#3d59a1AA",
+        "extensionButton.prominentBackground": "{button}{85%}",
+        "extensionButton.prominentHoverBackground": "{button}{65%}",
         "extensionButton.prominentForeground": "#ffffff",
-        "extensionBadge.remoteBackground": "#3d59a1",
+        "extensionBadge.remoteBackground": "{button}",
         "extensionBadge.remoteForeground": "#ffffff",
 
-        "button.background": "#3d59a1dd",
-        "button.hoverBackground": "#3d59a1AA",
+        "button.background": "{button}{85%}",
+        "button.hoverBackground": "{button}{65%}",
         "button.secondaryBackground": "{inactive-icons}",
         "button.foreground": "#ffffff",
-        "progressBar.background": "#3d59a1",
+        "progressBar.background": "{button}",
 
         "input.background": "{input-background}",
         "input.foreground": "{variables}",
         "input.border": "{theme}{40%}",
         "input.placeholderForeground": "{theme}{80%}",
         "inputOption.activeForeground": "{plugs}",
-        "inputOption.activeBackground": "#3d59a144",
+        "inputOption.activeBackground": "{button}{30%}",
 
         "inputValidation.infoForeground": "#bbc2e0",
-        "inputValidation.infoBackground": "#3d59a15c",
-        "inputValidation.infoBorder": "#3d59a1",
+        "inputValidation.infoBackground": "{button}{35%}",
+        "inputValidation.infoBorder": "{button}",
         "inputValidation.warningForeground": "#000000",
         "inputValidation.warningBackground": "#c2985b",
         "inputValidation.warningBorder": "{def-args}",
@@ -123,7 +123,7 @@
         "list.warningForeground": "{yellow}",
 
         "listFilterWidget.background": "{borders}",
-        "listFilterWidget.outline": "#3d59a1",
+        "listFilterWidget.outline": "{button}",
         "listFilterWidget.noMatchesOutline": "#a6333f",
 
         "pickerGroup.foreground": "{variables}",
@@ -158,9 +158,9 @@
         "editor.selectionBackground": "{cursor-highlight}",
         "editor.inactiveSelectionBackground": "#515c7e25",
 
-        "editor.findMatchBackground": "#3d59a166",
+        "editor.findMatchBackground": "{button}{40%}",
         "editor.findMatchBorder": "{find-match-border}",
-        "editor.findMatchHighlightBackground": "#3d59a166",
+        "editor.findMatchHighlightBackground": "{button}{40%}",
 
         "editor.findRangeHighlightBackground": "#515c7e33",
         "editor.rangeHighlightBackground": "#515c7e20",
@@ -241,16 +241,16 @@
 
         "peekView.border": "{borders}",
         "peekViewEditor.background": "{outer-background}",
-        "peekViewEditor.matchHighlightBackground": "#3d59a166",
+        "peekViewEditor.matchHighlightBackground": "{button}{40%}",
         "peekViewTitle.background": "{borders}",
         "peekViewTitleLabel.foreground": "{variables}",
         "peekViewTitleDescription.foreground": "{meta-text}",
         "peekViewResult.background": "{borders}",
         "peekViewResult.selectionForeground": "{variables}",
-        "peekViewResult.selectionBackground": "#3d59a133",
+        "peekViewResult.selectionBackground": "{button}{20%}",
         "peekViewResult.lineForeground": "{variables}",
         "peekViewResult.fileForeground": "{meta-text}",
-        "peekViewResult.matchHighlightBackground": "#3d59a166",
+        "peekViewResult.matchHighlightBackground": "{button}{40%}",
 
         "diffEditor.insertedTextBackground": "{green}{10%}",
         "diffEditor.removedTextBackground": "{red}{10%}",
@@ -338,7 +338,7 @@
 
         "debugView.stateLabelForeground": "{meta-text}",
         "debugView.stateLabelBackground": "{input-background}",
-        "debugView.valueChangedHighlight": "#3d59a1aa",
+        "debugView.valueChangedHighlight": "{button}{65%}",
 
         "debugTokenExpression.name": "{imports}",
         "debugTokenExpression.value": "#9aa5ce",
@@ -415,8 +415,8 @@
 
         "merge.currentHeaderBackground": "{green}25",
         "merge.currentContentBackground": "#007a7544",
-        "merge.incomingHeaderBackground": "#3d59a1aa",
-        "merge.incomingContentBackground": "#3d59a144",
+        "merge.incomingHeaderBackground": "{button}{65%}",
+        "merge.incomingContentBackground": "{button}{30%}",
         "mergeEditor.change.background": "{green}25",
         "mergeEditor.change.word.background": "{green}40",
         "mergeEditor.conflict.unhandledUnfocused.border": "{def-args}88",
@@ -449,7 +449,7 @@
         "menu.border": "{theme}AA",
 
         "chat.requestBorder": "#0f0f14",
-        "chat.avatarBackground": "#3d59a1",
+        "chat.avatarBackground": "{button}",
         "chat.avatarForeground": "{variables}",
         "chat.slashCommandBackground": "{input-background}",
         "chat.slashCommandForeground": "{func-names}",
