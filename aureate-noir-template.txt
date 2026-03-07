@@ -342,7 +342,7 @@
 
         "debugTokenExpression.name": "{imports}",
         "debugTokenExpression.value": "#9aa5ce",
-        "debugTokenExpression.string": "#9ece6a",
+        "debugTokenExpression.string": "{strings}",
         "debugTokenExpression.boolean": "{bools}",
         "debugTokenExpression.number": "{bools}",
         "debugTokenExpression.error": "#bb616b",
