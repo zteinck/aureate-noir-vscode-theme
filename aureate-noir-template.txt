@@ -1189,7 +1189,7 @@
             }
         },
         {
-            "name": "CSS ID's",
+            "name": "Sass Keywords",
             "scope": "source.sass keyword.control",
             "settings": {
                 "foreground": "{func-names}"
