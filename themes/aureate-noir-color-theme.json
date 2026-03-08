@@ -498,7 +498,7 @@
                 "comment",
                 "comment.block.documentation",
 				"punctuation.definition.comment",
-                "comment.block.documentation punctuation",
+                "comment.block.documentation punctuation"
 			],
 			"settings": {
 				"foreground": "#A9B1D666"
@@ -655,7 +655,7 @@
                 "meta.tag.blade keyword.other.type.php",
             ],
             "settings": {
-                "foreground": "{built_ins}"
+                "foreground": "#20B2AA"
             }
         },
         {
@@ -845,17 +845,11 @@
                 "variable.other.property",
                 "support.variable.property",
                 "support.variable.property.dom",
-                "meta.function-call variable.other.object.property"
+                "meta.function-call variable.other.object.property",
+                "variable.other.object.property"
             ],
             "settings": {
                 "foreground": "#9966CC"
-            }
-        },
-        {
-            "name": "Object Property",
-            "scope": "variable.other.object.property",
-            "settings": {
-                "foreground": "#A9B1D6"
             }
         },
         {
@@ -1037,7 +1031,7 @@
             "name": "CSS Tag",
             "scope": "entity.name.tag.css",
             "settings": {
-                "foreground": "{built_ins}"
+                "foreground": "#20B2AA"
             }
         },
         {
@@ -1181,7 +1175,7 @@
             "name": "HTML Character Entity",
             "scope": "text.html constant.character.entity",
             "settings": {
-                "foreground": "{built_ins}"
+                "foreground": "#20B2AA"
             }
         },
         {
@@ -1324,7 +1318,7 @@
                 "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
             ],
             "settings": {
-                "foreground": "{built_ins}"
+                "foreground": "#20B2AA"
             }
         },
         {
@@ -1360,7 +1354,7 @@
                 "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
             ],
             "settings": {
-                "foreground": "{built_ins}"
+                "foreground": "#20B2AA"
             }
         },
         {
@@ -1623,7 +1617,7 @@
             "name": "Token - Info",
             "scope": "token.info-token",
             "settings": {
-                "foreground": "{built_ins}"
+                "foreground": "#20B2AA"
             }
         },
         {
