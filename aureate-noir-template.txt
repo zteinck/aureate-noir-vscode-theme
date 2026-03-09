@@ -491,9 +491,15 @@
 			"name": "Comment",
 			"scope": [
                 "comment",
+                "comment.line",
+                "comment.block",
                 "comment.block.documentation",
+                "comment.block.documentation punctuation",
 				"punctuation.definition.comment",
-                "comment.block.documentation punctuation"
+                "punctuation.definition.bracket",
+                "punctuation.definition.section",
+                "punctuation.definition.arguments",
+                "punctuation.section.embedded.newline"
 			],
 			"settings": {
 				"foreground": "{comments}"
