@@ -5,7 +5,7 @@
     "type": "dark",
     "semanticTokenColors": {
         "parameter.declaration": {
-            "foreground": "{def-args}"
+            "foreground": "{func-arg}"
         },
         "parameter": {
             "foreground": "#d9d4cd"
@@ -23,7 +23,7 @@
             "foreground": "#2ac3de"
         },
         "variable.declaration": {
-            "foreground": "{def}"
+            "foreground": "{keyword}"
         },
         "variable": {
             "foreground": "{plugs}"
@@ -74,7 +74,7 @@
         "inputValidation.infoBorder": "{button}",
         "inputValidation.warningForeground": "#000000",
         "inputValidation.warningBackground": "#c2985b",
-        "inputValidation.warningBorder": "{def-args}",
+        "inputValidation.warningBorder": "{func-arg}",
         "inputValidation.errorForeground": "#bbc2e0",
         "inputValidation.errorBackground": "#85353e",
         "inputValidation.errorBorder": "#963c47",
@@ -186,14 +186,14 @@
 
         "editorOverviewRuler.border": "{borders}",
         "editorOverviewRuler.errorForeground": "{red}",
-        "editorOverviewRuler.warningForeground": "{def-args}",
+        "editorOverviewRuler.warningForeground": "{func-arg}",
         "editorOverviewRuler.infoForeground": "#1abc9c",
         "editorOverviewRuler.bracketMatchForeground": "{borders}",
         "editorOverviewRuler.findMatchForeground": "{variables}44",
         "editorOverviewRuler.rangeHighlightForeground": "{variables}44",
         "editorOverviewRuler.selectionHighlightForeground": "{variables}22",
-        "editorOverviewRuler.wordHighlightForeground": "{def}55",
-        "editorOverviewRuler.wordHighlightStrongForeground": "{def}{40%}",
+        "editorOverviewRuler.wordHighlightForeground": "{keyword}55",
+        "editorOverviewRuler.wordHighlightStrongForeground": "{keyword}{40%}",
         "editorOverviewRuler.modifiedForeground": "{gutter-mod}",
         "editorOverviewRuler.addedForeground": "{gutter-add}",
         "editorOverviewRuler.deletedForeground": "{gutter-del}",
@@ -234,8 +234,8 @@
         "editorSuggestWidget.highlightForeground": "{git-modded}",
 
         "editorCodeLens.foreground": "{comments}",
-        "editorLightBulb.foreground": "{def-args}",
-        "editorLightBulbAutoFix.foreground": "{def-args}",
+        "editorLightBulb.foreground": "{func-arg}",
+        "editorLightBulbAutoFix.foreground": "{func-arg}",
 
         "editorInlayHint.foreground": "#646e9c",
 
@@ -402,10 +402,10 @@
 
         "scmGraph.historyItemHoverLabelForeground": "#1b1e2e",
         "scmGraph.foreground1": "{bools}",
-        "scmGraph.foreground2": "{def-args}",
+        "scmGraph.foreground2": "{func-arg}",
         "scmGraph.foreground3": "{green}",
-        "scmGraph.foreground4": "{func-names}",
-        "scmGraph.foreground5": "{def}",
+        "scmGraph.foreground4": "{func-def}",
+        "scmGraph.foreground5": "{keyword}",
         "scmGraph.historyItemHoverAdditionsForeground": "{green}",
         "scmGraph.historyItemHoverDeletionsForeground": "{red}",
         "scmGraph.historyItemRefColor": "#506FCA",
@@ -419,17 +419,12 @@
         "merge.incomingContentBackground": "{button}{30%}",
         "mergeEditor.change.background": "{green}25",
         "mergeEditor.change.word.background": "{green}40",
-        "mergeEditor.conflict.unhandledUnfocused.border": "{def-args}88",
-        "mergeEditor.conflict.unhandledFocused.border": "{def-args}b0",
+        "mergeEditor.conflict.unhandledUnfocused.border": "{func-arg}88",
+        "mergeEditor.conflict.unhandledFocused.border": "{func-arg}b0",
         "mergeEditor.conflict.handledUnfocused.border": "{green}25",
         "mergeEditor.conflict.handledFocused.border": "{green}65",
         "mergeEditor.conflict.handled.minimapOverViewRuler": "{git-untracked}",
-        "mergeEditor.conflict.unhandled.minimapOverViewRuler": "{def-args}",
-
-        "gitlens.trailingLineForegroundColor": "#646e9c",
-        "gitlens.gutterUncommittedForegroundColor": "{func-names}",
-        "gitlens.gutterForegroundColor": "{meta-text}",
-        "gitlens.gutterBackgroundColor": "{outer-background}",
+        "mergeEditor.conflict.unhandled.minimapOverViewRuler": "{func-arg}",
 
         "notificationCenterHeader.background": "{borders}",
         "notifications.background": "{borders}",
@@ -452,7 +447,7 @@
         "chat.avatarBackground": "{button}",
         "chat.avatarForeground": "{variables}",
         "chat.slashCommandBackground": "{input-background}",
-        "chat.slashCommandForeground": "{func-names}",
+        "chat.slashCommandForeground": "{func-def}",
 
         "inlineChat.foreground": "{variables}",
         "inlineChatInput.background": "{input-background}",
@@ -610,14 +605,14 @@
             "name": "Invalid deprecated",
             "scope": "invalid.deprecated",
             "settings": {
-                "foreground": "{def}"
+                "foreground": "{keyword}"
             }
         },
         {
             "name": "Storage Type",
             "scope": "storage.type",
             "settings": {
-                "foreground": "{def}"
+                "foreground": "{keyword}"
             }
         },
         {
@@ -732,7 +727,7 @@
                 "keyword.other.important"
             ],
             "settings": {
-                "foreground": "{def}"
+                "foreground": "{keyword}"
             }
         },
         {
@@ -754,7 +749,7 @@
                 "keyword.operator.or.regexp"
             ],
             "settings": {
-                "foreground":  "{def}"
+                "foreground":  "{keyword}"
             }
         },
         {
@@ -797,7 +792,7 @@
                 "constant.other"
             ],
             "settings": {
-                "foreground": "{def-args}"
+                "foreground": "{func-arg}"
             }
         },
         {
@@ -883,22 +878,30 @@
                 "storage.type.cs"
             ],
             "settings": {
-                "foreground": "{func-names}"
+                "foreground": "{func-def}"
             }
         },
         {
             "name": "Function Definition",
             "scope": [
                 "entity.name.function",
-                "variable.other.enummember",
-                "meta.function-call",
-                "meta.function-call entity.name.function",
-                "variable.function",
                 "meta.definition.method entity.name.function",
                 "meta.object-literal entity.name.function"
             ],
             "settings": {
-                "foreground": "{func-names}"
+                "foreground": "{func-def}"
+            }
+        },
+        {
+            "name": "Function Call",
+            "scope": [
+                "meta.function-call",
+                "meta.function-call entity.name.function",
+                "variable.function",
+                "variable.other.enummember"
+            ],
+            "settings": {
+                "foreground": "{func-call}"
             }
         },
         {
@@ -910,7 +913,7 @@
                 "meta.function.parameter variable"
             ],
             "settings": {
-                "foreground": "{def-args}"
+                "foreground": "{func-arg}"
             }
         },
         {
@@ -923,7 +926,7 @@
                 "keyword.other.unit"
             ],
             "settings": {
-                "foreground": "{def}"
+                "foreground": "{keyword}"
             }
         },
         {
@@ -936,7 +939,7 @@
                 "variable.other.declaration"
             ],
             "settings": {
-                "foreground": "{def}"
+                "foreground": "{keyword}"
             }
         },
         {
@@ -997,7 +1000,7 @@
                 "support.type.map.key"
             ],
             "settings": {
-                "foreground": "{func-names}"
+                "foreground": "{func-def}"
             }
         },
         {
@@ -1043,7 +1046,7 @@
                 "entity.name.tag.reference"
             ],
             "settings": {
-                "foreground": "{def-args}"
+                "foreground": "{func-arg}"
             }
         },
         {
@@ -1089,7 +1092,7 @@
                 "meta.at-rule.include keyword.control.at-rule.include"
             ],
             "settings": {
-                "foreground": "{def}"
+                "foreground": "{keyword}"
             }
         },
         {
@@ -1168,7 +1171,7 @@
                 "text.html.basic entity.other.attribute-name"
             ],
             "settings": {
-                "foreground": "{def}"
+                "foreground": "{keyword}"
             }
         },
         {
@@ -1185,14 +1188,14 @@
                 "meta.directive.vue entity.other.attribute-name.html"
             ],
             "settings": {
-                "foreground": "{def}"
+                "foreground": "{keyword}"
             }
         },
         {
             "name": "Sass Keywords",
             "scope": "source.sass keyword.control",
             "settings": {
-                "foreground": "{func-names}"
+                "foreground": "{func-def}"
             }
         },
         {
@@ -1204,7 +1207,7 @@
                 "meta.property-list meta.property-value"
             ],
             "settings": {
-                "foreground": "{def}"
+                "foreground": "{keyword}"
             }
         },
         {
@@ -1248,7 +1251,7 @@
                 "constant.other.character-class.regexp"
             ],
             "settings": {
-                "foreground": "{def}"
+                "foreground": "{keyword}"
             }
         },
         {
@@ -1258,7 +1261,7 @@
                 "punctuation.definition.character-class.regexp"
             ],
             "settings": {
-                "foreground": "{def-args}"
+                "foreground": "{func-arg}"
             }
         },
         {
@@ -1309,7 +1312,7 @@
                 "source.json meta.structure.dictionary.json support.type.property-name.json"
             ],
             "settings": {
-                "foreground": "{func-names}"
+                "foreground": "{func-def}"
             }
         },
         {
@@ -1336,7 +1339,7 @@
                 "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
             ],
             "settings": {
-                "foreground": "{def}"
+                "foreground": "{keyword}"
             }
         },
         {
@@ -1345,7 +1348,7 @@
                 "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
             ],
             "settings": {
-                "foreground": "{def-args}"
+                "foreground": "{func-arg}"
             }
         },
         {
@@ -1441,7 +1444,7 @@
             "name": "Markdown - Markup Raw Inline",
             "scope": "text.html.markdown markup.inline.raw.markdown",
             "settings": {
-                "foreground": "{def}"
+                "foreground": "{keyword}"
             }
         },
         {
@@ -1481,7 +1484,7 @@
             ],
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "{func-names}"
+                "foreground": "{func-def}"
             }
         },
         {
@@ -1661,7 +1664,7 @@
             "name": "ENV value",
             "scope": "source.env",
             "settings": {
-                "foreground": "{func-names}"
+                "foreground": "{func-def}"
             }
         }
     ]
