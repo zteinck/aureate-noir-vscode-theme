@@ -637,11 +637,17 @@
                 "punctuation.definition.template-expression",
                 "punctuation.section.embedded",
                 "meta.embedded.line.tag.smarty",
+                "meta.embedded.line.interpolation",
                 "support.constant.handlebars",
                 "punctuation.section.tag.twig",
+                "constant.character.format.placeholder.other.python",
+                "punctuation.definition.interpolation.begin.python",
+                "punctuation.definition.interpolation.end.python",
+                "punctuation.section.interpolation.begin.python",
+                "punctuation.section.interpolation.end.python"
             ],
             "settings": {
-                "foreground": "{imports}"
+                "foreground": "{injection-brackets}"
             }
         },
         {
